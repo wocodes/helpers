@@ -1,0 +1,24 @@
+{
+    "name": "wocodes/helpers",
+    "description": "A collection of quick helper methods for common php code implementation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wocodes",
+            "email": "william.odiomonafe@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wocodes\\Helpers\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wocodes\\Helpers\\HelpersServiceProvider"
+            ]
+        }
+    }
+}
