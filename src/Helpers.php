@@ -6,7 +6,7 @@ class Helpers
 {
     public static function requireOnce(array $files) {
         foreach($files AS $file) {
-            require_once $file;
+            die(var_dump("working"));
         };
     }
 }
